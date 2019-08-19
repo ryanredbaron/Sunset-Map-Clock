@@ -1,11 +1,13 @@
 """
-pip install git+https://github.com/ryanredbaron/Sunset-Map-Clock.git
+raspi-config utility
 sudo apt-get update -y
 sudo apt-get upgrade -y
-sudo apt install python3-pip -y
-sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel -y
-sudo pip install requests -y
 sudo apt-get install ntpdate -y
+sudo apt install python3-pip -y
+sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel
+sudo pip3 install requests
+
+pip3 install git+https://github.com/ryanredbaron/Sunset-Map-Clock.git
 cd Sunset
 nohup sudo python3 Sunset.py >/dev/null 2>&1 &
 """
