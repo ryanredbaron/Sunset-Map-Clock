@@ -1,12 +1,14 @@
-#pip install git+https://github.com/ryanredbaron/Sunset-Map-Clock.git
-#sudo apt install python3-pip
-#sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel
-#sudo pip install requests
-#sudo apt-get install ntpdate
-#cd Sunset
-#sudo python3 Sunset.py
-#nohup sudo python3 Sunset.py >/dev/null 2>&1 &
-
+"""
+pip install git+https://github.com/ryanredbaron/Sunset-Map-Clock.git
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt install python3-pip -y
+sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel -y
+sudo pip install requests -y
+sudo apt-get install ntpdate -y
+cd Sunset
+nohup sudo python3 Sunset.py >/dev/null 2>&1 &
+"""
 from os import system, name 
 import time
 import board
