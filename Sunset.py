@@ -4,7 +4,7 @@
 #sudo apt-get install ntpdate
 #cd Sunset
 #sudo python3 Sunset.py
-#nohup sudo python3 Sunset.py &
+#nohup sudo python3 Sunset.py >/dev/null 2>&1 &
 
 from os import system, name 
 import time
