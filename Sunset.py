@@ -1,3 +1,4 @@
+#pip install git+https://github.com/ryanredbaron/Sunset-Map-Clock.git
 #sudo apt install python3-pip
 #sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel
 #sudo pip install requests
