@@ -10,7 +10,7 @@ sudo pip3 install requests
 sudo-apt get install git -y
 sudo git clone https://github.com/ryanredbaron/Sunset-Map-Clock.git
 cd Sunset-Map-Clock
-nohup sudo python3 Sunset.py >/dev/null 2>&1 &
+nohup sudo python3 Sunset.py > /dev/null 2>&1 &
 """
 from os import system, name 
 import time
